@@ -14,7 +14,7 @@ public struct QuestionDto: Codable {
      let inputType: String
      let questionType: String
      let multipleSelect: String
-     let values: [QuestionsValue]?
+     let values: [QuestionsValueDto]?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -28,15 +28,15 @@ public struct QuestionDto: Codable {
     }
 }
 
-// MARK: - QuestionsValue
-public struct QuestionsValue: Codable {
+// MARK: - QuestionsValueDto
+public struct QuestionsValueDto: Codable {
     public let id: Int
     public let questionId: String
     public let value: String
     public let quantity: String
     public let fixedPrice: String
     public let pricePerHour: String
-    public let questionByValue: [QuestionByValue]?
+    public let questionByValue: [QuestionByValueDto]?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -48,8 +48,8 @@ public struct QuestionsValue: Codable {
     }
 }
 
-// MARK: - QuestionByValue
-public struct QuestionByValue: Codable {
+// MARK: - QuestionByValueDto
+public struct QuestionByValueDto: Codable {
     public let id: Int
     public let parentValue: String
     public let serviceId: String
@@ -57,8 +57,8 @@ public struct QuestionByValue: Codable {
     public let inputType: String
     public let questionType: String
     public let multipleSelect: String
-    public let addons: [Addon]?
-    public let values: [QuestionByValueValue]?
+    public let addons: [AddonDto]?
+    public let values: [QuestionByValueValueDto]?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -72,8 +72,8 @@ public struct QuestionByValue: Codable {
     }
 }
 
-// MARK: - Addon
-public struct Addon: Codable {
+// MARK: - AddonDto
+public struct AddonDto: Codable {
     public let id: Int
     public let valueId: String
     public let questionId: String
@@ -81,7 +81,7 @@ public struct Addon: Codable {
     public let inputType: String
     public let questionType: String
     public let multipleSelect: String
-    public let values: [AddonValue]?
+    public let values: [AddonValueDto]?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -95,8 +95,8 @@ public struct Addon: Codable {
     }
 }
 
-// MARK: - AddonValue
-public struct AddonValue: Codable {
+// MARK: - AddonValueDto
+public struct AddonValueDto: Codable {
     public let id: Int
     public let addonId: String
     public let value: String
@@ -113,8 +113,8 @@ public struct AddonValue: Codable {
     }
 }
 
-// MARK: - QuestionByValueValue
-public struct QuestionByValueValue: Codable {
+// MARK: - QuestionByValueValueDto
+public struct QuestionByValueValueDto: Codable {
     public let id: Int
     public let questionId: String
     public let value: String
