@@ -6,7 +6,14 @@
 import Foundation
 
 public enum QuestionType: String {
-    case text = "text"
+    case text = "Text"
     case select = "select"
-    case checkbox = "checkbox"
+    case checkbox = "Checkbox"
+    case number = "Number"
+    case none = ""
+
+    static func from(rawValue: String?) -> QuestionType {
+        guard let value = rawValue else { return .none }
+        return QuestionType(rawValue: value)!
+    }
 }

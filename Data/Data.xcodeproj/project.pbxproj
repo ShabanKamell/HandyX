@@ -21,6 +21,7 @@
 		046B8007236F3A1500AE23A4 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046B7FFD236F3A1500AE23A4 /* Data.framework */; };
 		046B800C236F3A1500AE23A4 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B800B236F3A1500AE23A4 /* DataTests.swift */; };
 		046B800E236F3A1500AE23A4 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B8000236F3A1500AE23A4 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A54F03EE02B969C8687B7CE /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F69007FBBD546BF6D3DD /* InputType.swift */; };
 		1A54F15B64F7EF3FF6DD73E5 /* ServiceDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FE2F239739B6E590E0A7 /* ServiceDto.swift */; };
 		1A54F1C18300649A19679582 /* AddonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F9A81EF0AD276A9FCCE0 /* AddonType.swift */; };
 		1A54F1F0D6494C0C8FF502EE /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FD20036BC91CFFB0A138 /* Mapper.swift */; };
@@ -102,6 +103,7 @@
 		1A54F4DF6EE7A8BBDF050921 /* ServicesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesRepository.swift; sourceTree = "<group>"; };
 		1A54F5B7CAC32D1E302C6CA8 /* ServicesRepositoryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesRepositoryBuilder.swift; sourceTree = "<group>"; };
 		1A54F615145E63071A45DC11 /* Single+MapJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+MapJson.swift"; sourceTree = "<group>"; };
+		1A54F69007FBBD546BF6D3DD /* InputType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
 		1A54F78BE805DFE383D0EE4A /* ArrayDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDto.swift; sourceTree = "<group>"; };
 		1A54F9A81EF0AD276A9FCCE0 /* AddonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddonType.swift; sourceTree = "<group>"; };
 		1A54FAAE1B2EC50F5F8CE59E /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				1A54F2E01DE8DD4D26BC153A /* QuestionType.swift */,
 				1A54F9A81EF0AD276A9FCCE0 /* AddonType.swift */,
 				1A54F2D69B4357F47C9EBA4E /* QuestionByValType.swift */,
+				1A54F69007FBBD546BF6D3DD /* InputType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				1A54FD9870432BB5851F9F05 /* QuestionType.swift in Sources */,
 				1A54F1C18300649A19679582 /* AddonType.swift in Sources */,
 				1A54F5A92047CF3B7DCD0F79 /* QuestionByValType.swift in Sources */,
+				1A54F03EE02B969C8687B7CE /* InputType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

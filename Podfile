@@ -18,6 +18,11 @@ def core_pods
 
 end
 
+def snapKit
+  pod 'SnapKit', '~> 5.0.1'
+
+end
+
 target 'Core' do
     project 'Core/Core.project'
     core_pods
@@ -26,10 +31,9 @@ end
 #presentation module
 def presentation_pods
     core_pods
-    
+    snapKit
     pod 'SwiftMessages', '6.0.1'
     pod 'SDWebImage', '4.4.2'
-    pod 'SnapKit', '~> 4.0'
     pod 'FLEX', '2.4', :configurations => ['Debug']
     pod 'Layout', '~> 0.6'
     
@@ -71,14 +75,25 @@ target 'Home' do
     home_pods
 end
 
-#PostDetail feature module
-def postDetail_pods
+#Services feature module
+def questions_pods
+  core_pods
+end
+
+target 'Questions' do
+  project 'Questions/Questions.project'
+  questions_pods
+  snapKit
+end
+
+#SubServices feature module
+def subServices_pods
     core_pods
 end
 
-target 'PostDetail' do
-    project 'PostDetail/PostDetail.project'
-    postDetail_pods
+target 'SubServices' do
+    project 'SubServices/SubServices.project'
+    subServices_pods
 end
 
 #PostDetail feature module

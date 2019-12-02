@@ -11,7 +11,7 @@ struct SubServicesBuilder {
 
     static func make(serviceId: Int) -> SubServicesViewController {
         let vc = StoryboardScene.SubServices.initialScene.instantiate()
-        var vm = SubServicesViewModel(rxRequester: RxRequester(presentable: vc),
+        let vm = SubServicesViewModel(rxRequester: RxRequester(presentable: vc),
                 servicesRepository: ServicesRepositoryBuilder.make())
         vc.vm = vm
         vm.serviceId = serviceId

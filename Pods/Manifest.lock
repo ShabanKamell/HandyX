@@ -24,7 +24,7 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
-  - SnapKit (4.2.0)
+  - SnapKit (5.0.1)
   - SwiftGen (6.1.0)
   - SwiftLint (0.37.0)
   - SwiftMessages (6.0.1):
@@ -42,7 +42,7 @@ DEPENDENCIES:
   - RxRequester/Moya (~> 0.4.0)
   - RxSwift (~> 5.0)
   - SDWebImage (= 4.4.2)
-  - SnapKit (~> 4.0)
+  - SnapKit (~> 5.0.1)
   - SwiftGen (= 6.1.0)
   - SwiftLint (= 0.37.0)
   - SwiftMessages (= 6.0.1)
@@ -79,11 +79,11 @@ SPEC CHECKSUMS:
   RxRequester: fbe7404768d7bb40481ad77b14d04c30961af592
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
   SwiftMessages: 42ed7b6e1f2f1ead9ee667dc61a0ae87e4f49570
 
-PODFILE CHECKSUM: 83a0c55dce188ece2cd7476bd3d304d0a00f93e1
+PODFILE CHECKSUM: cad86a837ea8cf559a08a144f4271321939e35f9
 
 COCOAPODS: 1.8.4

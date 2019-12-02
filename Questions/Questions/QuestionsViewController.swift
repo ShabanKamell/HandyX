@@ -12,57 +12,31 @@ import RxSwift
 
 final class QuestionsViewController: UIViewController, ViewControllerProtocol {
     var vm: QuestionsViewModel!
-    var list: [Question] = []
     private let disposeBag = DisposeBag()
-
-    @IBOutlet weak var tableView: PagedTableView!{
-        didSet {
-            tableView.register(.questionCell, bundle: Bundle(for: type(of: self)))
-        }
-    }
-
+    
+    @IBOutlet weak var stackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.paginatedDelegate = self
-        tableView.paginatedDataSource = self
-        tableView.loadItems()
+        loadQuestions()
     }
-}
 
-extension QuestionsViewController: PaginatedTableViewDelegate {
-    func loadMore(start: Int, pageCount: Int, onSuccess: ((Int) -> Void)?, onError: ((Error) -> Void)?) {
-        vm.questions(onError: onError)
+    func loadQuestions() {
+        vm.questions()
                 .subscribe(onSuccess: { [weak self] questions in
-                    self?.list += questions
-                    onSuccess?(questions.count)
+                    guard let self = self else { return }
+//                    self.stackView.spacing   = 16.0
+                    self.stackView.translatesAutoresizingMaskIntoConstraints = false
+//                    (1...10).forEach { num in
+//                        let label = UILabel()
+//                        label.text = "LABEL LABEL LABEL LABEL LABEL LABEL LABEL "
+//                        self.stackView.addArrangedSubview(label)
+//                    }
+                    questions.forEach { question in QuestionDrawer.draw(question: question, stackView: self.stackView) }
                 })
                 .disposed(by: disposeBag)
     }
 }
-
-// MARK: Paginated Data Source
-extension QuestionsViewController: PaginatedTableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { list.count }
-    func numberOfSections(in tableView: UITableView) -> Int { 1 }
-
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.configureCell(
-                identifier: .questionCell,
-                indexPath: indexPath,
-                item: list[indexPath.row],
-                delegate: self
-        ) as QuestionCell
-        return cell
-    }
-}
-
-extension QuestionsViewController: ConfigurableCellDelegate {
-    public func cellTableView() -> UITableView {
-        tableView
-    }
-    func viewController() -> UIViewController { self }
-}
-
 
 extension QuestionsViewController: NavControllerContext {
     public func prefersNavBarHidden(navController: UINavigationController) -> Bool {
@@ -73,5 +47,3 @@ extension QuestionsViewController: NavControllerContext {
          .withoutText
     }
 }
-
-

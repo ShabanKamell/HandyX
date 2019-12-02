@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA86DD524B1D6C8AFAA45BBAEDB3ADCD"
-               BuildableName = "Pods_PostDetail.framework"
-               BlueprintName = "Pods-PostDetail"
+               BlueprintIdentifier = "4388CF1D71A4D863A74E90CDDB763434"
+               BuildableName = "Pods_SubServices.framework"
+               BlueprintName = "Pods-SubServices"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

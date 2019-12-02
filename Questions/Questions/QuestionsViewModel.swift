@@ -16,11 +16,8 @@ class QuestionsViewModel: ViewModelProtocol {
         self.servicesRepository = servicesRepository
     }
 
-    public func questions(onError: ((Error) -> Void)?) -> Single<[Question]> {
-        let options = RequestOptions.Builder()
-                .doOnError(onError)
-                .build()
-        return rxRequester.request(options: options) {
+    public func questions() -> Single<[Question]> {
+        rxRequester.request() {
             self.servicesRepository.questions(subServiceId: self.subServiceId)
                     .map { ListMapper(QuestionMapper()).map($0) }
         }
