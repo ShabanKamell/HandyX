@@ -97,6 +97,7 @@
 		1A54FC73F803B7B6D9A9225F /* PagedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F3327BF30634EDCC40D9 /* PagedTableView.swift */; };
 		1A54FCB646811F4D54116609 /* RootViewConrollerProtocolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F852BDE57EAB1A20E500 /* RootViewConrollerProtocolImpl.swift */; };
 		1A54FCDF69E7E4E6CBB2D7DC /* RootVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F0163D7B571FCBF7DC67 /* RootVm.swift */; };
+		1A54FD3A3A20F5FC93F8DEF3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FAEBB18DD935B83B2925 /* NibView.swift */; };
 		1A54FD9F8D3363AD9A84E15F /* RootViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1AE10F4E647FF606B00 /* RootViewController+Navigation.swift */; };
 		1A54FE21F971F01A8C045007 /* NavControllerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F3416AEC25EB16CF6900 /* NavControllerContext.swift */; };
 		1A54FE8E9683778B42648B6B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F38740839CC403B311A6 /* GradientView.swift */; };
@@ -270,6 +271,7 @@
 		1A54F99AE8B9F104F3923B40 /* RoundStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundStackView.swift; sourceTree = "<group>"; };
 		1A54F9E54ABAE40517A9CD46 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		1A54FA98D59A0855F947DA36 /* AppearanceApplyingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceApplyingStrategy.swift; sourceTree = "<group>"; };
+		1A54FAEBB18DD935B83B2925 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 		1A54FB869B70B65D13788B87 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		1A54FD15A66B28C5542F685B /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		1A54FD43AC48565A4A63EA88 /* UITableView+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Setup.swift"; sourceTree = "<group>"; };
@@ -521,6 +523,7 @@
 				1A54F99AE8B9F104F3923B40 /* RoundStackView.swift */,
 				1A54F8F154B5ADB5E0930493 /* NavigationController */,
 				1A54F6F853C58249CA35A964 /* CheckBox.swift */,
+				1A54FAEBB18DD935B83B2925 /* NibView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -979,6 +982,7 @@
 				1A54F1C5AFBF7D1A95D4ACF1 /* NavigationController.swift in Sources */,
 				1A54F64066E85E602FB70863 /* RootViewController+UINavigationControllerDelegate.swift in Sources */,
 				1A54F1DCD156274F02DBDA86 /* CheckBox.swift in Sources */,
+				1A54FD3A3A20F5FC93F8DEF3 /* NibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

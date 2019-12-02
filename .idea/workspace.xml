@@ -2,81 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Data/Services/Model/InputType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Questions.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-SubServices.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDirectionalInsetTarget.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDirectionalInsets.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-SubServices/Pods-SubServices.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/CheckBox.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questions/Questions.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Questions.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questions/Questions/QuestionDrawer.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/QuestionView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Core/NSObject+ClassName.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/NibView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/CheckBoxView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/CheckBoxView.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/StepperView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/StepperView.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/TitleView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/Questions/Views/TitleView.xib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Services/Model/Question.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Services/Model/Question.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionDto.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionDto.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionType.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionType.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-PostDetail.xcscheme" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/Constraint.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/Constraint.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintAttributes.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintAttributes.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintConstantTarget.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintConstantTarget.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDSL.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintDSL.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMaker.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMaker.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerEditable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerEditable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerExtendable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerExtendable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerPriortizable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerPriortizable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerRelatable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintMakerRelatable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintRelatableTarget.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintRelatableTarget.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintView+Extensions.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintView+Extensions.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintViewDSL.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/ConstraintViewDSL.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/Debugging.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/Debugging.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/LayoutConstraint.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/LayoutConstraint.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SnapKit/Source/UILayoutSupport+Extensions.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SnapKit/Source/UILayoutSupport+Extensions.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-acknowledgements.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-acknowledgements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit-Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/CheckBox.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/CheckBox.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/Questions.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/Questions.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/Questions/Questions.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/Questions.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionsViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubServices/SubServices/SubServicesBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/SubServices/SubServices/SubServicesBuilder.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,20 +57,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Questions" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Core" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.GENERIC" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.INFO" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.NOTE" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.WARNING" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data/Data/Services/Model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Questions/Questions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Questions/Questions" />
       <recent name="$PROJECT_DIR$/Data/Data/Services/Model" />
     </key>
   </component>
@@ -181,8 +128,8 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Home" />
       <item itemvalue="Application.PostDetail" />
-      <item itemvalue="Application.Presentation" />
       <item itemvalue="Application.Core" />
+      <item itemvalue="Application.Presentation" />
       <item itemvalue="Application.Data" />
       <item itemvalue="Application.Dependencies" />
       <item itemvalue="Application.Questions" />
@@ -240,7 +187,8 @@
       <workItem from="1575123999731" duration="4860000" />
       <workItem from="1575130307054" duration="3711000" />
       <workItem from="1575197336918" duration="33302000" />
-      <workItem from="1575248918606" duration="3574000" />
+      <workItem from="1575248918606" duration="3769000" />
+      <workItem from="1575255115598" duration="1496000" />
     </task>
     <servers />
   </component>

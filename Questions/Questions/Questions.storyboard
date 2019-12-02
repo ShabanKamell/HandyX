@@ -15,11 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-NI-dky">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-NI-dky">
                                 <rect key="frame" x="20" y="52" width="374" height="810"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="802" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cjh-rH-oqF">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="802"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="802" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cjh-rH-oqF">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="32"/>
+                                        <subviews>
+                                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="aPK-EF-ssC">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="32"/>
+                                            </stepper>
+                                        </subviews>
                                     </stackView>
                                 </subviews>
                                 <constraints>

@@ -32,8 +32,8 @@ open class CheckBox: UIControl {
         case rounded
     }
 
-    var style: Style = .circle
-    var borderStyle: BorderStyle = .roundedSquare(radius: 8)
+    var style: Style = .tick
+    var borderStyle: BorderStyle = .square
 
     @IBInspectable
     var checkBoxBorderWidth: CGFloat = 1.75
