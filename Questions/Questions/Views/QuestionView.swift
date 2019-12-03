@@ -23,54 +23,38 @@ class QuestionView: UIView {
     }
 
     func draw() {
-        switch question.inputType {
-        case .select:
-            drawSelect()
-        case .text:
-            drawSelect()
+        var view: QuestionViewProtocol
 
-        case .checkbox:
-            drawSelect()
+        switch question.questionType {
+        case .text:
+            view = TitleView()
+            add(view: view)
+
+        case .number:
+            view = StepperView()
+            add(view: view)
             return
 
         case .undefined:
-            drawSelect()
-            return
+           return
         }
+        view.setup(question: question, viewType: .question)
     }
 }
 
-// MARK: draw
+// MARK: add view
 extension QuestionView {
 
-    private func drawSelect() {
-        //Stack View
-//        let stackView   = UIStackView()
-//        stackView.axis  = NSLayoutConstraint.Axis.horizontal
-//        stackView.distribution  = UIStackView.Distribution.equalCentering
-//        stackView.alignment = UIStackView.Alignment.center
-//        stackView.spacing   = 16.0
-//        stackView.translatesAutoresizingMaskIntoConstraints = false
-//
-//        let checkBox = CheckBox(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-//        stackView.addArrangedSubview(checkBox)
-
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = question.title
-        label.numberOfLines = 0
-
-        addSubview(label)
-
-        label.lineBreakMode = .byWordWrapping
-        label.setContentHuggingPriority(.defaultLow, for: .horizontal)
-        label.setContentHuggingPriority(.defaultLow, for: .vertical)
-        label.lineBreakMode = .byTruncatingTail
-        label.snp.makeConstraints { make in
+    private func add(view: UIView) {
+        addSubview(view)
+        view.snp.makeConstraints { make in
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview()
+            make.left.equalToSuperview()
+            make.right.equalToSuperview()
             make.width.lessThanOrEqualToSuperview()
             make.height.lessThanOrEqualToSuperview()
         }
-        layoutIfNeeded()
     }
 
     private func drawText() {

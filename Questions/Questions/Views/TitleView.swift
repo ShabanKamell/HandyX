@@ -5,10 +5,15 @@
 
 import UIKit
 import Presentation
+import Data
 
-class TitleView: NibView {
-
-    @IBOutlet weak var stepper: UIStepper!
-    @IBOutlet weak var lblCount: UILabel!
+class TitleView: NibView, QuestionViewProtocol {
     @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet var stackView: UIStackView!
+    var question: Question!
+    var children: [QuestionViewProtocol] = []
+
+    func setupQuestion() {
+        lblTitle.text = question.title
+    }
 }

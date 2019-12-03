@@ -7,7 +7,7 @@ import Foundation
 import UIKit
 import Core
 
-public protocol NibDefinable {
+public protocol NibDefinable where Self: UIView {
     var nibName: String { get }
 }
 
@@ -32,22 +32,25 @@ open class NibView: UIView, NibDefinable {
     }
 
     private func nibSetup() {
+        translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = .clear
 
         view = loadViewFromNib()
         view.frame = bounds
-        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+//        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.translatesAutoresizingMaskIntoConstraints = false
 
         addSubview(view)
     }
 
     private func loadViewFromNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: nibName, bundle: bundle)
-        let nibView = nib.instantiate(withOwner: self, options: nil).first as! UIView
+        let nib = UINib(nibName: nibName, bundle: Bundle(for: type(of: self)))
+        let views = nib.instantiate(withOwner: self, options: nil)
+        let nibView = views.first as? UIView
 
-        return nibView
+        guard nibView != nil else { fatalError() }
+
+        return nibView!
     }
 
 }

@@ -14,7 +14,7 @@ struct QuestionDrawer {
 
         stackView.addArrangedSubview(view)
         view.question = question
-        question.values.forEach { item in draw(question: item, stackView: stackView) }
+//        question.values.forEach { item in draw(question: item, stackView: stackView) }
     }
 
 }

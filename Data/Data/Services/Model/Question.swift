@@ -5,16 +5,6 @@
 
 import Foundation
 
-public protocol QuestionProtocol {
-    var id: Int { get }
-    var title: String { get }
-}
-
-public protocol ValueProtocol {
-    var id: Int { get }
-    var title: String { get }
-}
-
 public struct Question {
     public let id: Int
     public let title: String

@@ -5,10 +5,17 @@
 
 import UIKit
 import Presentation
+import Data
 
-class CheckBoxView: NibView {
+class CheckBoxView: NibView, QuestionViewProtocol {
+    @IBOutlet var checkBox: CheckBox!
+    @IBOutlet var lblTitle: UILabel!
+    @IBOutlet var stackView: UIStackView!
+    var question: Question!
+    var children: [QuestionViewProtocol] = []
 
-    @IBOutlet weak var stepper: UIStepper!
-    @IBOutlet weak var lblCount: UILabel!
-    @IBOutlet weak var lblTitle: UILabel!
+    func setupQuestion() {
+        lblTitle.text = question.title
+    }
+
 }
