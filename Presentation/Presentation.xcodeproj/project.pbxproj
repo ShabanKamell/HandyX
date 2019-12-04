@@ -100,6 +100,7 @@
 		1A54FD3A3A20F5FC93F8DEF3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FAEBB18DD935B83B2925 /* NibView.swift */; };
 		1A54FD9F8D3363AD9A84E15F /* RootViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1AE10F4E647FF606B00 /* RootViewController+Navigation.swift */; };
 		1A54FE21F971F01A8C045007 /* NavControllerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F3416AEC25EB16CF6900 /* NavControllerContext.swift */; };
+		1A54FE6D0A7635C64E282AB7 /* ImageCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F4BE228AF9780A304EF1 /* ImageCheckRow.swift */; };
 		1A54FE8E9683778B42648B6B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F38740839CC403B311A6 /* GradientView.swift */; };
 		74594AFDB67D725F66FD9E4A /* Pods_Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706AE6106A773E1BDF45F6BB /* Pods_Presentation.framework */; };
 /* End PBXBuildFile section */
@@ -260,6 +261,7 @@
 		1A54F3416AEC25EB16CF6900 /* NavControllerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavControllerContext.swift; sourceTree = "<group>"; };
 		1A54F38740839CC403B311A6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		1A54F3DD4CD0644BB704D084 /* RootViewController+Presenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootViewController+Presenters.swift"; sourceTree = "<group>"; };
+		1A54F4BE228AF9780A304EF1 /* ImageCheckRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCheckRow.swift; sourceTree = "<group>"; };
 		1A54F6F853C58249CA35A964 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		1A54F71D247F7F5687CE4B71 /* Appearance+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Appearance+Default.swift"; sourceTree = "<group>"; };
 		1A54F852BDE57EAB1A20E500 /* RootViewConrollerProtocolImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewConrollerProtocolImpl.swift; sourceTree = "<group>"; };
@@ -524,6 +526,7 @@
 				1A54F8F154B5ADB5E0930493 /* NavigationController */,
 				1A54F6F853C58249CA35A964 /* CheckBox.swift */,
 				1A54FAEBB18DD935B83B2925 /* NibView.swift */,
+				1A54FF50C0EEF429A94BA30E /* Eureka */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -637,6 +640,14 @@
 				1A54F3416AEC25EB16CF6900 /* NavControllerContext.swift */,
 			);
 			path = Appearance;
+			sourceTree = "<group>";
+		};
+		1A54FF50C0EEF429A94BA30E /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				1A54F4BE228AF9780A304EF1 /* ImageCheckRow.swift */,
+			);
+			path = Eureka;
 			sourceTree = "<group>";
 		};
 		1A54FF67FF91DD1C22530E9F /* ViewModel */ = {
@@ -983,6 +994,7 @@
 				1A54F64066E85E602FB70863 /* RootViewController+UINavigationControllerDelegate.swift in Sources */,
 				1A54F1DCD156274F02DBDA86 /* CheckBox.swift in Sources */,
 				1A54FD3A3A20F5FC93F8DEF3 /* NibView.swift in Sources */,
+				1A54FE6D0A7635C64E282AB7 /* ImageCheckRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

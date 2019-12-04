@@ -10,8 +10,8 @@ import RxRequester
 struct QuestionsBuilder {
 
     static func make(subServiceId: Int) -> QuestionsViewController {
-        let vc = StoryboardScene.Questions.initialScene.instantiate()
-        var vm = QuestionsViewModel(rxRequester: RxRequester(presentable: vc),
+        let vc = QuestionsViewController()
+        let vm = QuestionsViewModel(rxRequester: RxRequester(presentable: vc),
                 servicesRepository: ServicesRepositoryBuilder.make())
         vc.vm = vm
         vm.subServiceId = subServiceId

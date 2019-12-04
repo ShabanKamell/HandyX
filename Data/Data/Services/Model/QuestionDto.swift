@@ -9,9 +9,11 @@ import UIKit
 
 public struct QuestionDto: Decodable {
     public let id: Int
+    public let questionId: String?
     public let title: String
     public let quantity: String?
     let inputType: String?
+    let parent: String?
     let questionType: String?
     let multipleSelect: String?
     let values: [QuestionDto]?
@@ -22,11 +24,13 @@ public struct QuestionDto: Decodable {
 
         id = try container.decode(Int.self, forKey: .id)
         quantity = try? container.decode(String.self, forKey: .quantity)
+        questionId = try? container.decode(String.self, forKey: .questionId)
+        parent = try? container.decode(String.self, forKey: .parent)
 
         inputType = try? container.decode(String.self, forKey: .inputType)
         questionType = try? container.decode(String.self, forKey: .questionType)
         multipleSelect = try? container.decode(String.self, forKey: .multipleSelect)
-        addons = try? container.decode([QuestionDto].self, forKey: .multipleSelect)
+        addons = try? container.decode([QuestionDto].self, forKey: .addons)
 
         if let titleValue = try? container.decode(String.self, forKey: .title) {
             title = titleValue
@@ -45,6 +49,7 @@ public struct QuestionDto: Decodable {
         case id
         case title
         case value
+        case questionId = "question_id"
         case quantity
         case questionByValue = "question_by_value"
         case values
@@ -52,6 +57,7 @@ public struct QuestionDto: Decodable {
         case inputType = "input_type"
         case questionType = "question_type"
         case multipleSelect = "multiple_select"
+        case parent = "parent_value"
     }
     
 }

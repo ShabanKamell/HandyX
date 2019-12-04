@@ -12,7 +12,7 @@ def core_pods
   pod 'SwiftGen', '6.1.0', :configurations => ['Debug']
   pod 'BartyCrouch', '3.13.0', :configurations => ['Debug']
   pod 'RxSwift',    '~> 5.0'
-   pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
+  pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
   pod 'IQKeyboardManager'
   pod 'RxRequester/Moya', '~> 0.4.0'
 
@@ -20,7 +20,10 @@ end
 
 def snapKit
   pod 'SnapKit', '~> 5.0.1'
+end
 
+def eureka
+  pod 'Eureka'
 end
 
 target 'Core' do
@@ -36,7 +39,7 @@ def presentation_pods
     pod 'SDWebImage', '4.4.2'
     pod 'FLEX', '2.4', :configurations => ['Debug']
     pod 'Layout', '~> 0.6'
-    
+    eureka
 end
 
 target 'Presentation' do
@@ -84,6 +87,7 @@ target 'Questions' do
   project 'Questions/Questions.project'
   questions_pods
   snapKit
+  eureka
 end
 
 #SubServices feature module

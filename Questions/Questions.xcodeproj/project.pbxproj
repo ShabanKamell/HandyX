@@ -29,6 +29,8 @@
 		1A54F0C008BD68D2B5701EDD /* QuestionViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FDD220C1FD0FB0F6FDBF /* QuestionViewType.swift */; };
 		1A54F0F2DE4E0FF8D6DB0695 /* QuestionDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F72F07D67FF027B298B5 /* QuestionDrawer.swift */; };
 		1A54F67EE0C2CBD2F5038FDF /* QuestionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F49B516EE0DC7D44E4DC /* QuestionViewProtocol.swift */; };
+		1A54F854E21EBAB57769C1D0 /* QuestionNodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F51E90A8207B86D042A4 /* QuestionNodeGenerator.swift */; };
+		1A54F8C9DA45C74DC922220D /* QuestionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FC1AC8758F79E5DD9CE0 /* QuestionNode.swift */; };
 		1A54F9E17641194C28DBA4AB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F68F89D7C7A25FA96F38 /* QuestionView.swift */; };
 		1A54FA7B55115D9235200741 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F2C7588B841EA774A4EB /* StepperView.swift */; };
 		1A54FF81B9DE1A7B39489972 /* StepperView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A54FD0F46676642F9DDF56C /* StepperView.xib */; };
@@ -159,8 +161,10 @@
 		04D208632379F7E4004CD6B9 /* Presentation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Presentation.xcodeproj; path = ../Presentation/Presentation.xcodeproj; sourceTree = "<group>"; };
 		1A54F2C7588B841EA774A4EB /* StepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		1A54F49B516EE0DC7D44E4DC /* QuestionViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewProtocol.swift; sourceTree = "<group>"; };
+		1A54F51E90A8207B86D042A4 /* QuestionNodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionNodeGenerator.swift; sourceTree = "<group>"; };
 		1A54F68F89D7C7A25FA96F38 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		1A54F72F07D67FF027B298B5 /* QuestionDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDrawer.swift; sourceTree = "<group>"; };
+		1A54FC1AC8758F79E5DD9CE0 /* QuestionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionNode.swift; sourceTree = "<group>"; };
 		1A54FD0F46676642F9DDF56C /* StepperView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepperView.xib; sourceTree = "<group>"; };
 		1A54FDD220C1FD0FB0F6FDBF /* QuestionViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewType.swift; sourceTree = "<group>"; };
 		6C112A2630E8D4C9987DB95C /* Pods-PostDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostDetail.release.xcconfig"; path = "Target Support Files/Pods-PostDetail/Pods-PostDetail.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				049301BA2392DC8B00C9813F /* Supporting Files */,
 				1A54FD69AE7CCD8534681837 /* Views */,
 				1A54F72F07D67FF027B298B5 /* QuestionDrawer.swift */,
+				1A54FC1AC8758F79E5DD9CE0 /* QuestionNode.swift */,
+				1A54F51E90A8207B86D042A4 /* QuestionNodeGenerator.swift */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -648,6 +654,8 @@
 				1A54FA7B55115D9235200741 /* StepperView.swift in Sources */,
 				1A54F0C008BD68D2B5701EDD /* QuestionViewType.swift in Sources */,
 				1A54F67EE0C2CBD2F5038FDF /* QuestionViewProtocol.swift in Sources */,
+				1A54F8C9DA45C74DC922220D /* QuestionNode.swift in Sources */,
+				1A54F854E21EBAB57769C1D0 /* QuestionNodeGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

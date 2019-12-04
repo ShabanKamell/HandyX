@@ -21,6 +21,8 @@ internal enum Asset {
   internal enum Assets {
     internal static let icDownArrow = ImageAsset(name: "ic-downArrow")
     internal static let icBack = ImageAsset(name: "icBack")
+    internal static let selectedRectangle = ImageAsset(name: "selectedRectangle")
+    internal static let unselectedRectangle = ImageAsset(name: "unselectedRectangle")
   }
   internal enum Colors {
     internal static let blackDark = ColorAsset(name: "BlackDark")
