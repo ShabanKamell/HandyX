@@ -2,130 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/BaseRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Cell.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/CellType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Core.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Form.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/HeaderFooterView.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Helpers.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/InlineRowType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/NavigationAccessoryView.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Operators.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/PresenterRowType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Row.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/RowControllerType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/RowProtocols.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/RowType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Section.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/SelectableRowType.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/SelectableSection.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/SwipeActions.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Core/Validation.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/ActionSheetRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/AlertRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/ButtonRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/ButtonRowWithPresent.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/CheckRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/AlertOptionsRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/DateFieldRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/DateInlineFieldRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/DecimalFormatter.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/FieldRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/GenericMultipleSelectorRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/OptionsRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/Protocols.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Common/SelectorRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Controllers/MultipleSelectorViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Controllers/SelectorAlertController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/Controllers/SelectorViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/DateInlineRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/DatePickerRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/DateRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/DoublePickerInputRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/DoublePickerRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/FieldsRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/LabelRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/MultipleSelectorRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/PickerInlineRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/PickerInputRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/PickerRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/PopoverSelectorRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/PushRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/SegmentedRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/SelectableRows/ListCheckRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/SliderRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/StepperRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/SwitchRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/TextAreaRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/TriplePickerInputRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Rows/TriplePickerRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleClosure.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleEmail.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleEqualsToRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleLength.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleRange.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleRegExp.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleRequired.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Eureka/Source/Validations/RuleURL.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Eureka.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Eureka/Eureka.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Eureka/ImageCheckRow.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/selectedRectangle.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/selectedRectangle.imageset/selectedRectangle@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/selectedRectangle.imageset/selectedRectangle@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/unselectedRectangle.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/unselectedRectangle.imageset/unselectedRectangle@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.xcassets/unselectedRectangle.imageset/unselectedRectangle@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNode.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNodeGenerator.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Data/Services/Model/Question.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Services/Model/Question.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionDto.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionDto.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-input-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-output-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Presentation/Pods-Presentation.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Questions/Pods-Questions.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Resources/Assets.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionBuilder.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionNode.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNode.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionNodeGenerator.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNodeGenerator.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/SubServices/SubServices.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +180,7 @@
       <workItem from="1575303472903" duration="1464000" />
       <workItem from="1575317685108" duration="7948000" />
       <workItem from="1575412062771" duration="9310000" />
-      <workItem from="1575456831091" duration="8747000" />
+      <workItem from="1575456831091" duration="26360000" />
     </task>
     <servers />
   </component>

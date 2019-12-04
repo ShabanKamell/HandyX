@@ -8,7 +8,7 @@ import Foundation
 public struct Question {
     public let id: Int
     public let title: String
-    let parent: String
+    public let parent: String
     public let inputType: InputType
     public let questionType: QuestionType
     public let multipleSelect: Bool

@@ -7,80 +7,90 @@ import Data
 import Presentation
 import Eureka
 
-private enum NodeType {
-    case values
-    case addons
+func nodeRows(node: QuestionNode) -> [BaseRow] {
+    var rows: [BaseRow] = [node.row]
+    node.nodes.forEach { item in rows.append(contentsOf: nodeRows(node: item)) }
+    return rows
 }
+
+func uniqueTag(question: Question) -> String { "\(question.id)-\(question.title)" }
 
 class QuestionNodeGenerator {
 
-    func generateNode(question: Question, parent: Question?) -> QuestionNode {
-        let row: BaseRow = generateRow(question: question, parent: parent)
+    func generateNode(question: Question, parent: Question?, form: Form) -> QuestionNode {
+        let row: BaseRow = generateRow(question: question, parent: parent, form: form)
 
         var nodes: [QuestionNode] = []
-        for value in question.values { nodes.append(generateNode(question: value, parent: question)) }
-        for addon in question.addons { nodes.append(generateNode(question: addon, parent: question)) }
+        for value in question.values { nodes.append(generateNode(question: value, parent: question, form: form)) }
+        for addon in question.addons { nodes.append(generateNode(question: addon, parent: question, form: form)) }
 
-        return QuestionNode(row: row, nodes: nodes)
-    }
+        let node = QuestionNode(question: question, row: row, nodes: nodes)
 
-/*
-    func generate(question: Question, parent: Question?) -> QuestionNode {
-        let row: BaseRow = generateRow(question: question, parent: parent)
-
-        var nodes: [QuestionNode] = []
-        for value in question.values { nodes.append(generate(question: value, parent: question)) }
-
-        return QuestionNode(row: row, nodes: nodes)
-    }
-*/
-
-    private func generateNode(question: Question, parent: Question?, for type: NodeType) -> QuestionNode {
-        let row: BaseRow = generateRow(question: question, parent: parent)
-
-        var questions: [Question]
-        switch type {
-        case .values:
-            questions = question.values
-        case .addons:
-            questions = question.addons
+        if let selectable = row as? CheckRow {
+            toggleSelectableNodesVisibility(selectable: selectable, node: node)
         }
 
-        var nodes: [QuestionNode] = []
-        for value in questions { nodes.append(generateNode(question: value, parent: question, for: type)) }
-
-        return QuestionNode(row: row, nodes: nodes)
+        return node
     }
 
-    private func generateRow(question: Question, parent: Question?) -> BaseRow {
+    private func toggleSelectableNodesVisibility(selectable: CheckRow, node: QuestionNode) {
+        // hide nodes of selectable row by default, and show if the row is selected
+        for node in node.nodes {
+            node.row.hidden = .function([selectable.tag!], { form in !(selectable.value ?? false) })
+            toggleSelectableNodesVisibility(selectable: selectable, node: node)
+        }
+    }
+
+    private func generateRow(question: Question, parent: Question?, form: Form) -> BaseRow {
         switch question.questionType {
 
         case .text:
-            return TextRow() { $0.title = question.title }
+            return LabelRow() {
+                $0.tag = uniqueTag(question: question)
+                $0.title = question.title
+            }
 
         case .number:
-            return StepperRow() { $0.title = question.title }
+            return StepperRow() { row in
+                row.tag = uniqueTag(question: question)
+                row.title = question.title
+                row.cell.valueLabel.isHidden = true
+                row.onChange { stepper in
+                    let allRows = form.allRows
+                    // update value field
+                    if let currentIndex = row.indexPath?.row, currentIndex + 1 < allRows.count {
+                        let valueRow = allRows[currentIndex + 1]
+                        if let textRow = valueRow as? TextRow  {
+                            textRow.value = String(stepper.value!)
+                            textRow.updateCell()
+                        }
+                    }
+                }
+            }
 
         case .undefined:
             // it's a value, should be displayed according to parent input type
             switch parent!.inputType {
             case .select, .checkbox:
-                return ImageCheckRow<String>(String(question.id)){ lrow in
+                if parent!.multipleSelect {
+                    return CheckRow() {
+                        $0.tag = uniqueTag(question: question)
+                        $0.title = question.title
+                    }
+                }
+                return ImageCheckRow<String>(uniqueTag(question: question)) { lrow in
                     lrow.title = question.title
                     lrow.selectableValue = question.title
                     lrow.value = nil
                 }
             case .text:
-                return TextRow() { $0.title = question.title }
+                return TextRow() {
+                    $0.tag = uniqueTag(question: question)
+                    $0.title = question.title
+                }
             case .undefined:
                 fatalError()
             }
         }
-    }
-
-    func nodeRows(node: QuestionNode) -> [BaseRow] {
-        var rows: [BaseRow] = [node.row]
-        node.nodes.forEach { item in rows.append(contentsOf: nodeRows(node: item)) }
-        return rows
     }
 }

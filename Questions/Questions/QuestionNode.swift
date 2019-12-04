@@ -4,8 +4,10 @@
 //
 
 import Eureka
+import Data
 
 struct QuestionNode {
+    let question: Question
     let row: BaseRow
     let nodes: [QuestionNode]
 }
