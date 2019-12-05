@@ -10,7 +10,6 @@
  - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift)
  - [ ] [Moya](https://github.com/Moya/Moya)
  - [ ] [Eureka](https://www.eureka.com.kw/)
- - [ ] Unit tests
 
 ### 🛡 License
 ```
