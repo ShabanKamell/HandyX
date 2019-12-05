@@ -21,10 +21,21 @@ class QuestionNodeGenerator {
         let row: BaseRow = generateRow(question: question, parent: parent, form: form)
 
         var nodes: [QuestionNode] = []
-        for value in question.values { nodes.append(generateNode(question: value, parent: question, form: form)) }
-        for addon in question.addons { nodes.append(generateNode(question: addon, parent: question, form: form)) }
+        var valueNodes: [QuestionNode] = []
+        var addonNodes: [QuestionNode] = []
 
-        let node = QuestionNode(question: question, row: row, nodes: nodes)
+        for value in question.values { valueNodes.append(generateNode(question: value, parent: question, form: form)) }
+        for addon in question.addons { addonNodes.append(generateNode(question: addon, parent: question, form: form)) }
+
+        nodes.append(contentsOf: valueNodes)
+        nodes.append(contentsOf: addonNodes)
+
+        let node = QuestionNode(
+                question: question,
+                row: row,
+                nodes: nodes,
+                valueNodes: valueNodes,
+                addonNodes: addonNodes)
 
         if let selectable = row as? CheckRow {
             toggleSelectableNodesVisibility(selectable: selectable, node: node)
@@ -66,6 +77,7 @@ class QuestionNodeGenerator {
                         }
                     }
                 }
+                row.add(rule: RuleRequired())
             }
 
         case .undefined:
@@ -87,6 +99,7 @@ class QuestionNodeGenerator {
                 return TextRow() {
                     $0.tag = uniqueTag(question: question)
                     $0.title = question.title
+                    $0.add(rule: RuleRequired())
                 }
             case .undefined:
                 fatalError()

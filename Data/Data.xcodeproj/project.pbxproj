@@ -31,8 +31,10 @@
 		1A54F46D7B2262D0488883C5 /* ServicesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F18411F08E13DFA599CA /* ServicesDataSource.swift */; };
 		1A54F5A92047CF3B7DCD0F79 /* QuestionByValType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F2D69B4357F47C9EBA4E /* QuestionByValType.swift */; };
 		1A54F72A85F341AD0C432B11 /* Single+MapJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F615145E63071A45DC11 /* Single+MapJson.swift */; };
+		1A54F7D96F6EAEE0DC83C963 /* QuestionAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F444A8F40F09CF6EB6FE /* QuestionAnswer.swift */; };
 		1A54F8B104192128737D3D6A /* QuestionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F2997E701A0CC2654C83 /* QuestionDto.swift */; };
 		1A54F8FBA3580E2DB2B9481B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FAAE1B2EC50F5F8CE59E /* Service.swift */; };
+		1A54F911162E8F09A075A95C /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1FD6A35330FCECDC5FD /* ServiceRequest.swift */; };
 		1A54FA384474262804558C79 /* MoyaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FED3C187E9300FADE2BE /* MoyaHelper.swift */; };
 		1A54FA57EB89DC34C99AF10F /* ItemDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FC6FF5908EB0D7B57773 /* ItemDto.swift */; };
 		1A54FC46BB52999357088996 /* ServicesRepositoryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F5B7CAC32D1E302C6CA8 /* ServicesRepositoryBuilder.swift */; };
@@ -96,10 +98,12 @@
 		0D4D4A6C6BF10027909E6242 /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
 		15B9C66F89F78E90F9DA2BAD /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A54F18411F08E13DFA599CA /* ServicesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesDataSource.swift; sourceTree = "<group>"; };
+		1A54F1FD6A35330FCECDC5FD /* ServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequest.swift; sourceTree = "<group>"; };
 		1A54F2997E701A0CC2654C83 /* QuestionDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDto.swift; sourceTree = "<group>"; };
 		1A54F2A0531B3F145799B467 /* PostsRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRemoteDataSource.swift; sourceTree = "<group>"; };
 		1A54F2D69B4357F47C9EBA4E /* QuestionByValType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionByValType.swift; sourceTree = "<group>"; };
 		1A54F2E01DE8DD4D26BC153A /* QuestionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		1A54F444A8F40F09CF6EB6FE /* QuestionAnswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
 		1A54F4DF6EE7A8BBDF050921 /* ServicesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesRepository.swift; sourceTree = "<group>"; };
 		1A54F5B7CAC32D1E302C6CA8 /* ServicesRepositoryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesRepositoryBuilder.swift; sourceTree = "<group>"; };
 		1A54F615145E63071A45DC11 /* Single+MapJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+MapJson.swift"; sourceTree = "<group>"; };
@@ -270,6 +274,8 @@
 				1A54F9A81EF0AD276A9FCCE0 /* AddonType.swift */,
 				1A54F2D69B4357F47C9EBA4E /* QuestionByValType.swift */,
 				1A54F69007FBBD546BF6D3DD /* InputType.swift */,
+				1A54F444A8F40F09CF6EB6FE /* QuestionAnswer.swift */,
+				1A54F1FD6A35330FCECDC5FD /* ServiceRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -512,6 +518,8 @@
 				1A54F1C18300649A19679582 /* AddonType.swift in Sources */,
 				1A54F5A92047CF3B7DCD0F79 /* QuestionByValType.swift in Sources */,
 				1A54F03EE02B969C8687B7CE /* InputType.swift in Sources */,
+				1A54F7D96F6EAEE0DC83C963 /* QuestionAnswer.swift in Sources */,
+				1A54F911162E8F09A075A95C /* ServiceRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
