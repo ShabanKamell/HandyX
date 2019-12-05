@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Data/Services/Model/QuestionAnswer.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data/Services/Model/ServiceRequest.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionNode.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNode.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionNodeGenerator.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionNodeGenerator.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/QuestionsViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/Resources/Localizations/ar.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions/Questions/Resources/Localizations/en.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/Questions/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +178,8 @@
       <workItem from="1575317685108" duration="7948000" />
       <workItem from="1575412062771" duration="9310000" />
       <workItem from="1575456831091" duration="30751000" />
-      <workItem from="1575494954655" duration="7935000" />
+      <workItem from="1575494954655" duration="8596000" />
+      <workItem from="1575547509995" duration="149000" />
     </task>
     <servers />
   </component>
@@ -210,6 +204,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1575548136234">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1575548136234" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
