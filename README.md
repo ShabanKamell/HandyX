@@ -1,5 +1,5 @@
 # HandyX
-**HandyX** represents a real world app example: it's a suitable showcase for all the advantages that architecture components bring, has all features that would make it a modular, scalable, testable and maintainable app.
+**HandyX** represents a real world app example: it's a suitable showcase for all the advantages that modular architecture bring, has all features that would make it a modular, scalable, testable and maintainable app.
 
 ## Stack
  - [ ] Swift 5
