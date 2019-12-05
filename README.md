@@ -4,10 +4,10 @@
 ## Stack
  - [ ] Swift 5
  - [ ] MVVM
- - [ ] [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
  - [ ] Modular Architecture
- - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift)
  - [ ] Repostory Pattern
+ - [ ] [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+ - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift)
  - [ ] [Moya](https://github.com/Moya/Moya)
  - [ ] [Eureka](https://www.eureka.com.kw/)
  - [ ] Unit tests
