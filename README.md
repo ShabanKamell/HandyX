@@ -6,9 +6,10 @@
  - [ ] MVVM
  - [ ] Clean Architecture
  - [ ] Modular Architecture
- - [ ] RXSwift
+ - [ ] [RxSwift](https://github.com/ReactiveX/RxSwift)
  - [ ] Repostory Pattern
  - [ ] Moya
+ - [ ] Eureka
  - [ ] Unit tests
 
 ### 🛡 License
